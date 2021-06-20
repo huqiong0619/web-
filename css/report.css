@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	/*background:url(../img/bg1.jpg) no-repeat;*/
+	/*background: #E7EFF4;*/
+	/*background: url(../img/bg.jpg);*/
+	height: 100%;
+	width: 100%;
+	background-size:cover ;
+}
+.top{
+	height: 120px;
+	background: white;
+	border-bottom: 1px solid black;
+	
+}
+.top .name{
+	width: 100px;
+	height: 80px;
+	/*background: green;*/
+	margin-left: 50px;
+	margin-top:30px ;
+	float: left;
+   
+
+
+}
+.top .nav ul{
+	width: 700px;
+	height: 80px;
+	margin-top:20px ;
+	margin-bottom: 10px;
+	/*background: red;*/
+	display: flex;
+	float: right;
+	
+}
+.top .nav ul li{
+	margin-top:50px;
+	list-style: none;
+	padding-right: 10px;
+	
+	
+}
+.top .nav ul li .report{
+	width: 100%;
+	height: 100%;
+	color: white;
+	background: black;
+}
+.top .nav ul li a{
+	position: relative;
+	display: block;
+	margin: 10px 20px;
+	padding-top:8px ;
+	/*padding: 10px 30px;*/
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: .5s;
+	text-align: center;
+	
+}
+.top ul li a:hover{
+	width: 100%;
+	height: 100%;
+	color: white;
+	background: black;
+	
+}
+.endwords ul li{
+	width: 700px;
+	height: 80px;
+	margin-top:20px ;
+	margin-bottom: 10px;
+	/*background: red;*/
+	display: flex;
+	float: right;
+}
